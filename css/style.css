@@ -125,7 +125,7 @@ body {
 
 
 /* Медиазапрос для Tablet */
-@media (max-width: 1199) {
+@media (max-width: 1199px) {
     .container {
         width: 900px;
     }
