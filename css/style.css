@@ -54,6 +54,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
+    line-height: 17px;
 }
 
 /* Карточки */
@@ -129,6 +130,10 @@ body {
     .container {
         width: 900px;
     }
+    .subtitle {
+        font-family: 'Noto Sans', sans-serif;
+        color: #999999;
+    }
 }
 
 
@@ -137,11 +142,30 @@ body {
     .container {
         width: 600px;
     }
+    .section {
+        padding: 60px 0;
+    }
+    .title {
+        font-size: 32px;
+    }    
+    .subtitle {
+        font-size: 12px;
+    }
+    .button {
+        font-size: 18px;
+    }
+    .section-header {
+        margin-bottom: 40px;
+    }
 }
 
 /* Медиазапрос для Mobile */
 @media (max-width: 599px) {
     .container {
         width: 320px;
+    }
+    .card {
+        margin-right: auto;
+        margin-left: auto;
     }
 }
