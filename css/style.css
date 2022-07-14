@@ -125,7 +125,7 @@ body {
 
 
 /* Медиазапрос для Tablet */
-@media (max-width: 900px) {
+@media (max-width: 1199) {
     .container {
         width: 900px;
     }
@@ -133,14 +133,14 @@ body {
 
 
 /* Медиазапрос для Mobile */
-@media (max-width: 600px) {
+@media (max-width: 899px) {
     .container {
         width: 600px;
     }
 }
 
 /* Медиазапрос для Mobile */
-@media (max-width: 320px) {
+@media (max-width: 599px) {
     .container {
         width: 320px;
     }
